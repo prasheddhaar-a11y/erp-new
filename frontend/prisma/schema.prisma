@@ -1,0 +1,17 @@
+// =====================================================
+// PINESPHERE ERP
+// Module      : Frontend Platform
+// File        : schema.prisma
+// Purpose     : Supports Schema project configuration
+// Author      : Pinesphere Development Team
+// Last Updated: Auto Generated
+// =====================================================
+
+generator client {
+  provider = "prisma-client"
+  output   = "../app/generated/prisma"
+}
+
+datasource db {
+  provider = "postgresql"
+}
